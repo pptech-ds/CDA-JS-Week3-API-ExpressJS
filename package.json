@@ -19,7 +19,9 @@
   "homepage": "https://github.com/pptech-ds/CDA-JS-Week3-API-ExpressJS#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
