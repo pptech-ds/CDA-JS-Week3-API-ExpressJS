@@ -1,6 +1,6 @@
 import router from "./router";
 import UserController from "./Controller";
-import User from "./model";
+import User from "../User/model";
 
 const models = { User };
 const controller = new UserController(models);

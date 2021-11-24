@@ -1,9 +1,9 @@
 import UserRouter from "./User";
-import AppointmentRouter from "./Appointment";
+import CommentRouter from "./Comment";
 
 const routes = {
   "/users": UserRouter,
-  "/appointments": AppointmentRouter,
+  "/comments": CommentRouter,
 };
 
 export default routes;

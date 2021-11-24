@@ -1,8 +1,8 @@
 import router from "./router";
 import AppointController from "./Controller";
-import Appointment from "../Appointment/model";
+import Comment from "../Comment/model";
 
-const models = { Appointment };
+const models = { Comment };
 const controller = new AppointController(models);
 const routes = router(controller);
 

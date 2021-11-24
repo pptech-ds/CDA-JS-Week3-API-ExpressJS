@@ -16,9 +16,7 @@ server.errorHandler(errorHandler);
   try {
     await db.associateAll(db.sequelize.models);
     await db.sequelize.sync({ alter: true });
-    await server.listen(config.app_port);
 
-    sequelize.sync()
   } catch (e) {
     console.error(e);
   }

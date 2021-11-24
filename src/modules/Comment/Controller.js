@@ -1,10 +1,10 @@
 import ApiError from "../../helpers/ApiError";
 
-class AppointmentController {
+class CommentController {
   #models;
   constructor(models) {
     this.#models = models;
   }
 }
 
-export default AppointmentController;
+export default CommentController;
