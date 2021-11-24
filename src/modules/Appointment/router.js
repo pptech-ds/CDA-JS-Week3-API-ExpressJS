@@ -1,10 +1,9 @@
 import { Router } from "express";
 
 export default (controller) => {
+  const router = Router();
 
-    const router = Router();
-    
-    router.route('/test').get();
+  router.route("/test").get();
 
-    return router;
-}
+  return router;
+};
